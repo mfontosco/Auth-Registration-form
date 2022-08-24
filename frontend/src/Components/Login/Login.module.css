@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.message{
+    color:green
+}
+.image{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formData{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #607EAA;
+    }
+/* .formData h1{
+    margin-top: 200px;
+} */
+.formData form{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 5px;
+    
+    
+}
+.formData form h3 a{
+    text-decoration: none;
+    color:#89CFFD;
+    font-size: 18px;
+    font-weight: bold;
+}
+.formData form h3{
+    color: white;
+    margin-top: 20px;
+    width: 70%;
+}
+.formData form button{
+    padding: 10px;
+    width: 70%;
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: #89CFFD;
+}
+.email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.email input::placeholder{
+    font-size: 18px;
+    font-style: italic;
+}
+.Password input::placeholder{
+    font-size: 18px;
+    font-style: italic;
+}
+.email input{
+    width: 70%;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.Password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Password input{
+    width: 70%;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.label{
+display: flex;
+justify-content: flex-start;
+text-align: start;
+width: 70%;
+margin-top: 20px;
+font-size: 24px;
+font-weight: bold;
+}
+
